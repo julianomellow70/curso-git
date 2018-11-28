@@ -1,0 +1,37 @@
+comandos git hub
+
+git config --global user.name "julianomellow70"
+git config --global user.email "julianodemello1999@gmail.com"
+
+clonar navegador com git
+git clone https://github.com/julianomellow70/curso-git.git
+cd curso-git/
+
+//listar repositorio
+ls
+ctrl+l ---> limpa o terminal
+
+//upar
+
+git push -u origin (nome branch)
+$ git commit -m "Adicionando topico sobre monitoramento"
+$ git add index.html
+//baixar atualizacoes
+git pull
+
+listar versoes
+git log 
+git log --oneline
+git log --oneline --stat
+
+//ramificacoes da teia principal
+git branch
+
+nova teia
+
+git branch nome
+
+//trocar a teia
+ git checkout adicionar_form
+//juntar teias
+git merge adicionar_form
